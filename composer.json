@@ -1,0 +1,18 @@
+{
+    "name": "programmeruz/payment-package",
+    "description": "Payme API package",
+    "type": "library",
+    "license": "Apache",
+    "autoload": {
+        "psr-4": {
+            "Programmeruz\\PaymentPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Temurbek Nuriddinov"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
