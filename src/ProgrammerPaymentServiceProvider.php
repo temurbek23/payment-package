@@ -1,6 +1,6 @@
 <?php
 
-namespace Programmeruz\PaymentPackage;
+namespace ProgrammeruzPayme\PaymentPackage;
 
 use Illuminate\Support\ServiceProvider;
 class ProgrammerPaymentServiceProvider extends ServiceProvider

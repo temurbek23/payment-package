@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Programmeruz\PaymentPackage\Http\Controller\PaymentController;
+use ProgrammeruzPayme\PaymentPackage\Http\Controller\PaymentController;
 
 /*
 |--------------------------------------------------------------------------

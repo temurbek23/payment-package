@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http;
+namespace ProgrammeruzPayme\PaymentPackage\Http;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;

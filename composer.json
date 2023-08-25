@@ -1,11 +1,11 @@
 {
-    "name": "programmeruz/payment-package",
+    "name": "programmeruz-payme/payment-package",
     "description": "Payme API package",
     "type": "library",
     "license": "Apache",
     "autoload": {
         "psr-4": {
-            "Programmeruz\\PaymentPackage\\": "src/"
+            "ProgrammeruzPayme\\PaymentPackage\\": "src/"
         }
     },
     "authors": [

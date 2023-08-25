@@ -1,6 +1,6 @@
 <?php
 
-namespace Programmeruz\PaymentPackage\Http\Controller;
+namespace ProgrammeruzPayme\PaymentPackage\Http\Controller;
 
 use App\Http\ValidatorResponse;
 use GuzzleHttp\Client;
