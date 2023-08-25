@@ -2,7 +2,7 @@
     "name": "programmeruz-payme/payment-package",
     "description": "Payme API package",
     "type": "library",
-    "license": "Apache",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "ProgrammeruzPayme\\PaymentPackage\\": "src/"
