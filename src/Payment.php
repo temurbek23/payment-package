@@ -38,7 +38,7 @@ class Payment
     }
 
 
-    public function getResponse($params, $method, $x_auth)
+    private function getResponse($params, $method, $x_auth)
     {
         $url = env('PAYME_URL');
 
