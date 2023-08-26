@@ -9,8 +9,8 @@ Bu Laravel paketi, Payme to'lov tizimini integratsiyalash uchun yaratilgan. Ushb
 Ushbu paketni Composer orqali o'rnatishingiz mumkin. Terminalni oching va quyidagi buyruqni ishga tushiring:
 
 ```bash
-composer require your-package-name
-
+composer require programmeruz-payme/payment-package
+```
 ## Sozlash
 
 Loyhangizdagi .env fayliga quydagi o'zgaruvchilarni qo'shing va Payme API dan URL va HOST ni va Payme taqdim etadigan ID va KEY ni olib quydagi o'zgaruvchilarga ta'minlang:
@@ -20,6 +20,7 @@ PAYME_URL=your_url
 PAYME_HOST=your_host
 PAYME_ID=your_id
 PAYME_KEY=your_key
+```
 
 ## To'lov Amalga Oshirish
 
@@ -34,3 +35,4 @@ $amount = 10000; // To'lov miqdori
 $token = 'your_payment_token'; // To'lov uchun token
 
 $payme->pay($amount, $token);
+```
